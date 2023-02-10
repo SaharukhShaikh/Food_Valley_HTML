@@ -1,0 +1,149 @@
+body,html{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    font-family: 'Spartan', sans-serif;
+}
+header {
+    background-color: #009000;
+    color: white;
+}
+header h1{
+    margin: 0;
+    padding: 1%;
+}
+.bgimg{
+    width: 100%;
+    background-color: #009000;
+}
+.bgimg img{
+    width: 100%;
+}
+.intro{
+    background-color: #009000;
+    color: white;
+    top: 0%;
+}
+.intro_txt{
+    padding: 1% 4%;
+}
+.intro h3{
+    margin: 0;
+}
+.category{
+    margin: 2%;
+}
+.category select{
+    background-color: #262626;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.items{
+    width: 100%;
+}
+.item_info{
+    display: flex;
+    margin: 1% 3%;
+}
+.item_info img{
+    width: 40%;
+}
+.item_detail{
+width: 55%;
+margin-left: 3%;
+
+}
+.price_add{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38%;
+}
+.price_add h1{
+    margin: 0;
+}
+.price_add button{
+    padding: 1% 3%;
+    background-color: #009000;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+.popup {
+    background-color: rgba(0,0,0,.514);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.popup .popup-content {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 0 20px;
+    max-height: 60%;
+}
+.popup .cross {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+.popup h2{
+    font-size: 22px;
+    font-family: "Spartan";
+}
+.ratings{
+    width: 100%;
+}
+.ratings img{
+    width: 20%;
+}
+.review {
+    width: 100%;
+    margin-top: 5%;
+
+
+}
+.review input{
+    width: 60%;
+    padding: 2%;
+    color: #A5A5A5;
+}
+.review textarea{
+    width: 90%;
+    margin-top: 3%;
+    color: #A5A5A5;
+}
+.review_submit button{
+
+    background-color: #009000;
+    color: #fff;
+    margin: 3% 1%;
+    padding: 2% 5%;
+    border: 0;
+    border-radius: 5px;
+
+}
+footer {
+    background-color: #009000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    margin: 2%;
+}
+footer button{
+    border: 0;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
